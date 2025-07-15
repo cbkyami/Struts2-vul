@@ -26,6 +26,7 @@ Content-Disposition: form-data; name="top.fileFileName"
 
 ```
 最后通过访问 **http://ip:8080/shell.jsp** 就可以看到页面输出"hello world"
+![s2-067](./images/1.png)
 
 如果需要更方便的进行RCE
 ```jsp
@@ -64,3 +65,4 @@ Content-Disposition: form-data; name="top.fileFileName"
 </html>
 
 ```
+![s2-067](./images/2.png)
