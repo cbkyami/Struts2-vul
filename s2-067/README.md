@@ -25,8 +25,8 @@ Content-Disposition: form-data; name="top.fileFileName"
 ------WebKitFormBoundaryl6ZFZPznNSPZOFJF--
 
 ```
-最后通过访问 **http://ip:8080/shell.jsp** 就可以看到页面输出"hello world"
-![s2-067](./images/1.png)
+最后通过访问 **http://ip:8080/shell.jsp** 就可以看到页面输出"hello world"  
+![s2-067](./image/1.png)
 
 如果需要更方便的进行RCE
 ```jsp
@@ -65,4 +65,4 @@ Content-Disposition: form-data; name="top.fileFileName"
 </html>
 
 ```
-![s2-067](./images/2.png)
+![s2-067](./image/2.png)
